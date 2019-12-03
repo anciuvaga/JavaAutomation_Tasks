@@ -11,9 +11,11 @@ public class CharList {
     public CharList() {
         list = new ArrayList<>();
     }
+
     private CharList(ArrayList<Character> list) {
         this.list = list;
     }
+
     public CharList(String input) {
         char[] chars = input.toCharArray();//transform String into char []
         list = new ArrayList<>();

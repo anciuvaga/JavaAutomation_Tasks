@@ -5,7 +5,7 @@ public class Main {
 
         CharList chObject = new CharList("abc123123");
         //1.toString()
-        System.out.println("1.Char toString: " + chObject);
+        System.out.println("1.Char toString: " + chObject.toString());
         //2.int length() - returns CharList length
         System.out.println("2.Length Of ArrayList is: " + chObject.lengthOfList());
         //3.returns char value for the particular index
